@@ -106,7 +106,7 @@ jobs:
 
   build-ctr:
     runs-on: ubuntu-24.04-arm
-    container: wally4000/daedalusx64:latest
+    container: LuMariGames/daedalusx64:latest
 
     steps:
       - uses: actions/checkout@v4 
